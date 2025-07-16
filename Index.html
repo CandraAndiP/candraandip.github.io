@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Angka</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Game Memory Angka</h1>
+    <p>Ingat urutan angka berikut selama 3 detik!</p>
+    <div id="level"📈> Level: 1</div>
+    <div id="numberDisplay"></div>
+
+    <div id="inputSection" style="display: none;">
+      <p>Ketik ulang urutan angkanya (tanpa spasi):</p>
+      <input type="text" id="userInput" placeholder="Contoh: 47291">
+      <button id="submitBtn">✅ Cek Jawaban</button>
+    </div>
+
+    <div id="result"></div>
+    <button id="restartBtn" style="display:none;">🔁 Mulai Lagi</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

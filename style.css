@@ -1,0 +1,52 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+#numberDisplay {
+  font-size: 2em;
+  margin: 20px 0;
+  letter-spacing: 10px;
+}
+
+#userInput {
+  padding: 10px;
+  font-size: 1em;
+  width: 80%;
+  max-width: 300px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+#level {
+  font-size: 1.1em;
+  margin: 10px 0;
+  color: #00ffcc;
+}
+
